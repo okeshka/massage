@@ -1,0 +1,389 @@
+body {
+  min-width: 1040px;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
+/*header, footer, section, div, ul, li, p, blockquote, cite, img, table, tr, td, th,
+a, dd, dt, h2, h3, input, label, .container*/
+{
+    outline: 1px solid grey;
+  }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+    width: 1020px;
+    margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  border-bottom: 2px dashed white;
+  color: white;
+}
+a:hover:not(.btn) {
+  border: none;
+
+}
+a:active {
+  color: #bf9a7f;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  margin-bottom: 20px;
+  background-image: url("../img/header.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 450px;
+}
+header a {
+color:  #000000;
+  }
+
+header li, footer li {
+  float: left;
+  padding: 10px 20px;
+  margin-top: 12px;
+  text-transform: uppercase;
+  }
+
+header li:first-child, footer li:first-child {
+margin-left: 130px;
+}
+header li:last-child, footer li:last-child {
+margin-right: 130px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #b3969a;
+}
+h3 {
+  font-size: 18px;
+  color: #7f3943;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid white;
+  border-radius: 2px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding: 15px 15px;
+  vertical-align: top;
+  text-transform: uppercase;
+  margin-top: 10px;
+
+}
+.btn:hover {
+    color: white;
+
+}
+.quick {
+  margin-top: 6px;
+    border-color: #ffffff;
+    color: #ffffff;
+    color: #404040;
+}
+.quick:hover {
+    color: #000000;
+    outline: 2px solid grey;
+    outline-offset: 3px;
+    cursor: pointer;
+
+}
+.logo {
+  padding: 0;
+    width: 135px;
+  height: 100px;
+  float: left;
+  margin-left: 20px;
+
+background-image: url("../img/logo.png");
+background-position: center;
+background-size: cover;
+  }
+.theory {
+  background-color: #e5efe9;
+}
+footer {
+  background-color: #aa1d06;
+  color: white;
+}
+footer a {
+  color: white;
+}
+header .phone {
+  margin: 0;
+  padding: 5px;
+  float: right;
+  color: white;
+  font-size: 30px;
+  padding-right: 20px;
+  background-color: rgba(0, 107, 60, 0.7);
+  border-radius: 10px;
+  margin-right: 27px;
+
+}
+.promo {
+  text-align: center;
+  font-size: 56px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+  font-weight: bold;
+  font-family: "Georgia", serif;
+  line-height: 65px;
+  text-align: center;
+}
+.features ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+  .feature-item {
+  float: left;
+  width: 300px;
+  margin-left: 35px;
+  text-align: center;
+  padding-top: 130px;
+  background-size: 40%;
+  background-position: center 10px;
+  background-repeat: no-repeat;
+    }
+.feature-item h3 {
+  font-family: "Georgia", serif;
+  font-size: 26px;
+}
+.reviews h2 {
+  padding-top: 20px;
+}
+.reviews ul {
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+ .reviews li {
+  float: left;
+  width: 300px;
+  margin-left: 35px;
+  text-align: left;
+  border-left: 3px solid green;
+  font-size: 14px;
+  line-height: 20px;
+  }
+  .prices h2 {
+    margin-bottom: 40px;
+  }
+  .reviews cite {
+    padding-left: 60px;
+    font-weight: bold;
+  }
+
+.theory img {
+  float: left;
+  border-radius: 5%;
+}
+.theory p {
+  padding-left: 330px;
+  text-align: justify;
+  padding-right: 20px;
+}
+.theory p:nth-child(n+1) {
+  padding-bottom: 50px;
+}
+.quality {
+  background-image: url(../img/quality.png);
+  }
+.health {
+  background-image: url(../img/health.png);
+}
+.figure {
+  background-image: url(../img/figure.png);
+}
+.order {
+  margin-bottom: 20px;
+  background: url(../img/form.jpeg) no-repeat;
+  background-size: 27%;
+  background-position: 850px center;
+}
+.prices {
+  margin-bottom: 60px;
+  background: url(../img/price.jpg) no-repeat;
+  background-size: 15%;
+  background-position: 1050px 50px;
+  background-color: #e5efe9;
+}
+.theory {
+  margin-bottom: 40px;
+  }
+.theory h2 {
+  padding: 15px;
+}
+.theory h3 {
+  text-align: center;
+
+}
+form, .order {
+  font: inherit;
+}
+table {
+width: 820px;
+border-collapse: collapse;
+text-align: left;
+}
+th {
+  padding-bottom: 10px;
+}
+td {
+  border: 1px solid green;
+  padding: 20px 10px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-indent: 20px;
+}
+input[type="text"], select {
+  height: 54px;
+}
+input[type="text"], input[type="time"], input[type="date"], textarea, select {
+  width: 550px;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  padding-left: 10px;
+  box-shadow: 1px 1px 2px grey;
+  font-size: 18px;
+  }
+
+  input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 15px 10px;
+  }
+footer .phone {
+  text-align: center;
+  font-size: 28px;
+
+}
+footer .copyright {
+  text-align: right;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+.contacts {
+text-align: justify;
+background-color: #e5efe9;
+line-height: 24px;
+margin-bottom: 40px;
+margin-top: 40px;
+padding: 10px;
+padding-bottom: 20px;
+}
+footer .footer-menu {
+  padding-top: 20px;
+}
+footer .logo {
+  margin-top: 10px;
+}
+td:nth-of-type(2) {
+  font-weight: bold;
+}
+footer .container {
+  position: relative;
+}
+footer .phone {
+  position: absolute;
+  top: 90px;
+  left: 280px;
+  }
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.left input[type="text"], .right input[type="text"],
+input[type="time"], input[type="date"] {
+  width: 260px;
+  }
+
+.clear {
+  clear: both;
+  }
+
+form {
+  width: 550px;
+}
+.clear {
+  padding-top: 0.1px;
+}
+dd:last-of-type {
+  padding-bottom: 20px;
+}
+dd {
+  text-indent: 35px;
+}
+input[type="submit"] {
+  margin-top: 20px;
+}
+.prices {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.maps {
+  float: left;
+width: 300px;
+margin-right: 50px;
+text-indent: 30px;
+line-height: 28px;
+}
+.iframe {
+  float: right;
+  }
+  textarea {
+      display: block;
+      min-height: 120px;
+  }
+input[type="text"]:hover,
+select:hover,
+textarea:hover {
+    border-color: #bebebe;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #8d745a;
+}
